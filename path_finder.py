@@ -3,7 +3,7 @@ from tree import Node
 class KnightPathFinder():
     def __init__(self, position):
         self._root = Node(position)
-        self._considered_positions = set([self._root])
+        self._considered_positions = set([position])
 
 
     def get_valid_moves(self, pos):
